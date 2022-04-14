@@ -1,0 +1,132 @@
+*{
+
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+   
+} 
+ .main-div{
+     text-align: center;
+ }
+ #main{
+    display: flex;
+    justify-content: center;
+     /* position: absolute; */
+     /*text-align: center;*/
+ }
+
+ /*.left-div{
+  
+ }*/
+ #navbar{
+    display: flex;  
+  }
+.s{
+    background-color: rgb(16, 16, 126);
+    color: white;
+    font-size: x-small;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    justify-content:space-between;
+    display:flex;
+}
+.v{
+    background-color: rgb(16, 16, 126);
+    color: white;
+    font-size: x-small;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    justify-content:space-between;
+    display:flex;
+    margin-top: 2px;
+
+}
+
+
+.home ul li{
+    display: flex;
+    justify-content: left;
+}
+.no-bullets li{
+    list-style-type: none;
+    font-size: .70em;
+    display: flex;
+    
+}
+.find{
+    color:rgb(32, 32, 145);
+    font-style: oblique;
+    font-size: 2em;
+}
+.uni{
+    color:rgb(32, 32, 145);
+    font-style: inherit;
+    font-size: 3em; 
+}
+.b{
+    background-color: rgb(240, 240, 36);
+    margin-right: 250px;
+    height: 30px;
+    font-size: .20em;
+}
+
+.right-div{
+    position: relative;
+    background-color: rgb(10, 10, 122);
+    justify-content: center;
+    
+}
+.icons{
+    position: absolute;
+    margin-left: 450px;
+}
+.search{
+    height: 20px;
+    width: 20px;
+}
+.bell{
+    height: 20px;
+    width: 20px;
+}
+
+.img2{
+    height: 300px;
+    width: 280px;
+    margin-right: 150px;
+    margin-left: 150px;
+    margin-top: 90px;
+
+}
+.new{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 390px;
+    
+}
+.p{
+    text-align: center;
+}
+.p1{
+    color: #fffbfb;
+    font-size: .60em;
+    font-style: italic;
+    
+}
+.p2{
+    color: white;
+    font-size: .80em;
+}
+
+.section2{
+    text-align: center;
+}
+.hr{
+    
+    list-style-position: inside;
+}
+.mark li{
+    justify-content: center;
+    display: flex;
+    font-size: .50em;
+}
